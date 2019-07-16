@@ -1,8 +1,11 @@
-@import 'core/settings';
-@import 'core/links';
+//@import 'core/settings';
+//@import 'core/links'; 
+//
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
+.main {
+	background-image: url(../images/lampara.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat; 
 	height: 100vh;
+	width: 100vw;
 }
