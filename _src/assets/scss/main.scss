@@ -1,11 +1,37 @@
 //@import 'core/settings';
-//@import 'core/links'; 
+//@import 'core/links';
 //
 
 .main {
-	background-image: url(../images/lampara.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat; 
-	height: 100vh;
-	width: 100vw;
+  background-image: url(../images/lampara.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 60px;
+  width: 154.5px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  
+  align-content: space-around;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 154.5px;
+}
+// @media all and (min 320px; max 740px) {
+
+// }
