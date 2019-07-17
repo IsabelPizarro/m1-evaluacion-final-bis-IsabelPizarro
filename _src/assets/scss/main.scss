@@ -35,3 +35,18 @@ li {
 // @media all and (min 320px; max 740px) {
 
 // }
+
+// main
+.main {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.create {
+	color: white;
+	font-size: 30px;
+	font-family: 'Rubik-Bold', sans-serif;
+height: 108px;
+width: 161px;
+margin-left: 20px;
+}
