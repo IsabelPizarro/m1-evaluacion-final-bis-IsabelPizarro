@@ -19,6 +19,11 @@
   height: 60px;
   width: 154.5px;
 }
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 li {
   display: flex;
   flex-direction: row;
@@ -42,11 +47,12 @@ li {
 	justify-content: flex-start;
 	align-items: center;
 }
-.create {
+.mainTitle {
 	color: white;
 	font-size: 30px;
 	font-family: 'Rubik-Bold', sans-serif;
 height: 108px;
 width: 161px;
 margin-left: 20px;
+
 }
