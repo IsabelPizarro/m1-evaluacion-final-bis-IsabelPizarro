@@ -1,62 +1,12 @@
-//@import 'core/settings';
-//@import 'core/links';
-//
-@import "layout/header";
-@import "layout/create";
-@import "layout/footer";
+@import "layouts/header";
+@import "layouts/create";
+@import "layouts/footer";
+
 .body {
   box-sizing: border-box;
+  margin: 0px;
+  overflow-x: hidden;
 }
 html {
   box-sizing: border-box;
 }
-//header
-
-
-
-// }
-
-// main
-.main {
-  background-image: url(../images/lampara.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-.main {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.mainTitle {
-  color: white;
-  font-size: 30px;
-  font-family: "Rubik-Bold", sans-serif;
-  font-weight: bold;
-  height: 108px;
-  width: 161px;
-  margin-left: 20px;
-}
-
-//footer
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #252525;
-  color: #676a6d;
-  font-family: "Rubik-Regular", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  height: 90px;
-  width: 100vw;
-}
-.copy {
-  width: 119px;
-  height: 19px;
-}
-
-//media 768 main
-
-//footer
-//igual en los tres

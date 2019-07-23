@@ -1,0 +1,22 @@
+.main {
+  background-image: url(../images/lampara.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.mainTitle {
+  color: white;
+  font-size: 30px;
+  font-family: "Rubik-Bold", sans-serif;
+  font-weight: bold;
+  height: 108px;
+  width: 161px;
+  margin-left: 20px;
+}

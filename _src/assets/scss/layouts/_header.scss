@@ -21,6 +21,10 @@
   display: inline;
   color: #4a4a4a;
 }
+.item:hover {
+    color: #32decf;
+    text-decoration: underline;
+}
 
 .menu {
   margin: 0;
