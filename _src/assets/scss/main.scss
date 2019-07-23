@@ -1,6 +1,9 @@
 //@import 'core/settings';
 //@import 'core/links';
 //
+@import "layout/header";
+@import "layout/create";
+@import "layout/footer";
 .body {
   box-sizing: border-box;
 }
@@ -9,35 +12,7 @@ html {
 }
 //header
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  height: 112px;
-  background-color: white;
-  width: 100vw;
-  box-sizing: border-box;
-}
-.logo {
-  height: 60px;
-  width: 154.5px;
-}
 
-.link {
-  text-decoration: none;
-}
-.item {
-  display: inline;
-  color: #4a4a4a;
-}
-
-.menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 // }
 
@@ -80,21 +55,7 @@ html {
   width: 119px;
   height: 19px;
 }
-//media 768 header
 
-@media all and (min-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .item {
-    padding-right: 30px;
-  }
-  .logo {
-    padding-left: 30px;
-  }
-}
 //media 768 main
 
 //footer
