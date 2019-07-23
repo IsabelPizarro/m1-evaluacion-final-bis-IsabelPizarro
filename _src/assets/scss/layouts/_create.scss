@@ -1,29 +1,33 @@
+@import "core/variables";
 .main {
   background-image: url(../images/lampara.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  //background-position-x: %;
-  margin: 0px;
+  background-position: center;
+  padding-top: 100px;
   width: 100%;
   height: 100%;
-}
-.main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-}
-.mainTitle {
-  color: white;
-  font-size: 30px;
-  font-family: "Rubik-Bold", sans-serif;
-  font-weight: bold;
-  height: 108px;
-  width: 161px;
-  margin-left: 20px;
+
+  .mainTitle {
+    color: $colorWhite;
+    font-size: 30px;
+    font-family: "Rubik-Bold", sans-serif;
+    font-weight: bold;
+    height: 108px;
+    width: 161px;
+    margin-left: 20px;
+  }
 }
 @media all and (min-width: 768px) {
-.mainTitle {
-  font-size: 60px;
-}
+  .main {
+    background-position: left;
+
+    .mainTitle {
+      font-size: 60px;
+    }
+  }
 }
