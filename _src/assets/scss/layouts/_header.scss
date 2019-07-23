@@ -10,26 +10,26 @@
   width: 100vw;
   box-sizing: border-box;
 
+  .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-.menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    .link {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
 
-  .link {
-    text-decoration: none;
-  }
-
-  .item {
-    display: inline;
-    color: #4a4a4a;
-    transition: 5s ease color;
-    &:hover {
-      color: #32decf;
-      text-decoration: underline;
+    .item {
+      display: inline;
+      color: #4a4a4a;
+      transition: 5s ease color;
+      &:hover {
+        color: #32decf;
+        text-decoration: underline;
+      }
     }
   }
-}
 }
 
 //media 768 header
