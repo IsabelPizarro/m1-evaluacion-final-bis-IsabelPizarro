@@ -17,25 +17,21 @@ html {
   position: fixed;
   height: 112px;
   background-color: white;
-  width: 100vw; 
+  width: 100vw;
   box-sizing: border-box;
-  
 }
 .logo {
   height: 60px;
   width: 154.5px;
 }
 
-  
 .link {
   text-decoration: none;
 }
 .item {
   display: inline;
   color: #4a4a4a;
-  
 }
-
 
 .menu {
   margin: 0;
@@ -92,15 +88,14 @@ html {
     flex-direction: row;
     justify-content: space-between;
   }
- .item {
-  padding-right: 30px;
- }
+  .item {
+    padding-right: 30px;
+  }
   .logo {
     padding-left: 30px;
   }
 }
 //media 768 main
-
 
 //footer
 //igual en los tres
