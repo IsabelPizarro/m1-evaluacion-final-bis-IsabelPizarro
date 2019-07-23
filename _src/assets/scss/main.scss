@@ -2,13 +2,8 @@
 //@import 'core/links';
 //
 
-.main {
-  background-image: url(../images/lampara.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-}
+//header
+
 .header {
   display: flex;
   flex-direction: column;
@@ -20,6 +15,10 @@
   width: 154.5px;
 }
 .menu {
+  display: inline;
+}
+
+.menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -27,7 +26,6 @@
 li {
   display: flex;
   flex-direction: row;
-  
   align-content: space-around;
 }
 
@@ -43,16 +41,34 @@ li {
 
 // main
 .main {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+  background-image: url(../images/lampara.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .mainTitle {
-	color: white;
-	font-size: 30px;
-	font-family: 'Rubik-Bold', sans-serif;
-height: 108px;
-width: 161px;
-margin-left: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: "Rubik-Bold", sans-serif;
+  height: 108px;
+  width: 161px;
+  margin-left: 20px;
+}
 
+//footer
+.footer {
+  background-color: #252525;
+  color: #676a6d;
+  font-size: 16px;
+  text-align: center;
+}
+.copy {
+  width: 119px;
+  height: 19px;
 }
