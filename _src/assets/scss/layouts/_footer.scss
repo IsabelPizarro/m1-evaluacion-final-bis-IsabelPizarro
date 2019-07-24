@@ -17,3 +17,25 @@
     height: 19px;
   }
 }
+.warning {
+  color: $colorGreen;
+  text-align: center;
+}
+.warningLink {
+  color: $colorGreen;
+}
+
+@media all and (min-width: 768px) {
+  .warning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 18px 0px 18px;
+    background-color: $colorGreen;
+    color: $colorWhite;
+    
+  }
+  .warningLink {
+    color: $colorWhite;
+  }
+}
