@@ -7,27 +7,30 @@
   position: fixed;
   height: 112px;
   background-color: $colorWhite;
-  width: 100vw;
-  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
 
   .menu {
     margin: 0;
     padding: 0;
-    list-style: none;
-
-    .link {
-      text-decoration: none;
-      text-transform: uppercase;
-    }
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
 
     .item {
       display: inline;
-      color: #4a4a4a;
-      transition: 5s ease color;
-      &:hover {
-        color: #32decf;
-        text-decoration: underline;
-      }
+      list-style: none;
+      text-transform: uppercase;
+    }
+  }
+
+  .link {
+    color: #4a4a4a;
+    text-decoration: none;
+    transition: 5s ease color;
+    padding: 5px;
+    &:hover {
+      color: #32decf;
+      text-decoration: underline;
     }
   }
 }
@@ -40,7 +43,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    .item {
+    .link {
       padding-right: 35px;
     }
     .logo {
